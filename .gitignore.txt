@@ -1,12 +1,13 @@
-# Ignore Python venv
+# Python venv
 backend/venv/
 
-# Ignore node_modules
+# Node modules
 frontend/node_modules/
 
-# Python
+# Python cache
 __pycache__/
 *.pyc
 
-# macOS
+# macOS & Windows system files
 .DS_Store
+Thumbs.db
