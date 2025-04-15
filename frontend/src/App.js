@@ -28,7 +28,7 @@ function App() {
   const fetchData = async () => {
     try {
       setError(null);  // reset error
-      const res = await axios.get(`/explore-city?city=${city}`);
+      const res = await axios.get(`https://city-explorer-api.onrender.com/explore-city?city=${city}`);
       console.log("Received data:", res.data);
       setData(res.data);
     } catch (err) {
